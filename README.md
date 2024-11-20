@@ -1,3 +1,9 @@
-By using this code a HTML Form can be made whoch can send the value to whatsapp chat.Here, user fill the form and submit it. after submitting the form it will be redirected to whtsapp app on mobile and whatsapp web on desktop pcs
-Coder have to pass a mobile number on what the data should be sent.
-Coder need to give a unique if to the input fileds such as [input type="text" class="form-control" id="name"]
+By using this code, an HTML form can be created that sends values to a WhatsApp chat. The user fills out the form and submits it. After submission, the user is redirected to the WhatsApp app on mobile devices or WhatsApp Web on desktop PCs.
+
+The coder must provide a mobile number to which the data will be sent. Each input field in the form should have a unique id or name attribute, such as:
+[input type="text" class="form-control" id="name" name="name"]
+The coder must assign these id or name attributes to each input field.
+
+Use the following format to send the content to WhatsApp chat:
+https://wa.me/91(number)?text=
+
